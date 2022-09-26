@@ -42,6 +42,7 @@
   height: 100vh;
   display: flex;
   flex-direction: row;
+  margin-left: 10%;
 }
 
 .navBarWrapper{
@@ -51,6 +52,9 @@
   height: 100vh;
   width: 10%;
   font-size: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .navBarWrapper button{
@@ -112,4 +116,69 @@ span{
 .contactWrapper button{
   font-size: 25px;
   margin-right: 32px;
+}
+
+.aboutWrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10%;
+  height: 100vh;
+}
+
+.underLine{
+  border: 1px solid blue;
+  width: 120px;
+  height: 1px;
+  opacity: 60%;
+  margin-top: 7px;
+}
+
+.aboutWrapper h1{
+  font-size:30px;
+  font-family: 'Raleway';
+  font-weight: 600;
+  color: #39393a;
+}
+
+.aboutWrapper p{
+  margin-top: 30px;
+  text-align: center;
+  font-family: 'Noto Sans Mono', monospace;
+}
+
+.aboutContentWrapper{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.aboutContentWrapper img{
+  width: 30%;
+  padding-left: 30px;
+}
+.aboutContent{
+  border: 1px solid black;
+  width: 70%;
+  margin-left: 20px;
+}
+
+.aboutContent h2{
+  font-size: 28px;
+  color: blue;
+  font-family: 'Noto Sans Mono', monospace;
+}
+
+.listWrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px 120px 10px 10px;
+}
+
+.listWrapper li{
+  margin-top: 10px;
+  list-style-type: '>';
+  padding-left: 10px;
 }
