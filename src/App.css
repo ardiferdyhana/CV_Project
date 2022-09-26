@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.homepageWrapper{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.navBarWrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width: 10%;
+  font-size: 20px;
+}
+
+.navBarWrapper button{
+  border-radius: 40px;
+  font-size: 18px;
+  width: 60px;
+  height: 60px;
+  justify-content: left;
+  margin: 10px 0px 10px 30px;
+  font-weight: 300;
+  padding-left: 21px;
+  background-color: #dedede;
+  color: black;
+}
+
+.navBarWrapper button:hover{
+  width: 130px;
+  color: white;
+}
+
+span{
+  display: none;
+}
+
+.navBarWrapper button:hover .spanBtn{
+  display: block;
+  color: white;
+}
+
+
+.textHomeWrapper{
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 100px;
+}
+
+.textHomeWrapper h1{
+  font-size: 64px;
+  font-weight: 600;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #45505b
+}
+
+.textHomeWrapper p{
+  font-size: 26px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px 0px 15px 0px;
+  color: #436e9a;
+}
+
+.contactWrapper{
+  display: flex;
+  flex-direction: row;
+}
+
+.contactWrapper button{
+  font-size: 25px;
+  margin-right: 32px;
+}
