@@ -48,7 +48,7 @@
   margin: 10px 0px 10px 30px;
   font-weight: 300;
   padding-left: 21px;
-  background-color: #ebebeb;
+  background-color: #e9ecef;
   color: black;
 }
 
@@ -92,12 +92,12 @@ span{
   text-shadow: black;
 }
 
-.contactWrapper{
+.iconWrapper{
   display: flex;
   flex-direction: row;
 }
 
-.contactWrapper button{
+.iconWrapper button{
   font-size: 25px;
   margin-right: 32px;
 }
@@ -113,7 +113,8 @@ span{
 
 .underLine{
   border: 1px solid #3182ce;
-  width: 120px;
+  background-color: #3182ce;
+  width: 130px;
   height: 1px;
   opacity: 60%;
   margin-top: 7px;
@@ -178,11 +179,9 @@ span{
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 30px 3% 30px 10%;
   margin-left: 10%;
-  margin-right: 3%;
-  margin-top: 5%;
-  height: 100vh;
-  margin-left: 10%;
+
 }
 
 .resumeWrapper h1{
@@ -204,11 +203,6 @@ span{
   width: 100%;
   justify-content: space-between;
   padding: 40px 10px 20px 10px;
-}
-
-.resumeContent{
-  width:49%;
-  height: 300px;
 }
 
 .resumeWrapper h2{
@@ -247,4 +241,46 @@ span{
 .Container h3{
   position: relative;
   top: -4px;
+}
+
+.contactWrapper{
+  margin: 30px 3% 30px 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.contactWrapper h1{
+  font-size:30px;
+  font-family: 'Raleway';
+  font-weight: 600;
+  color: #39393a;
+}
+
+.contactContentWrapper{
+  width: 100%;
+  display:flex;
+  flex-direction: row;
+}
+
+.infoContainer{
+  width: 30%;
+}
+
+.infoContainer button{
+  background-color: #f3f3f3;
+  color: #3182ce;
+}
+
+.infoContainer button:hover{
+  color: white;
+}
+
+.messageContainer{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
 }

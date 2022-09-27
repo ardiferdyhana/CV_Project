@@ -2,7 +2,8 @@ import './App.css';
 import { ChakraProvider } from '@chakra-ui/react'
 import Homepage from './Components/Homepage'
 import About from './Components/About'
-import Resume from './Components/Resume';
+import Resume from './Components/Resume'
+import Contact from './Components/Contact';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Homepage />
       <About />
       <Resume />
+      <Contact />
     </ChakraProvider>
   )
 }

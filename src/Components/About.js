@@ -14,6 +14,7 @@ const About = () => {
             <div className='aboutContentWrapper'>
                 <Image
                     boxSize='300px'
+                    objectFit='contain'
                     src={avatarImage}
                     alt='Avatar'
                 />

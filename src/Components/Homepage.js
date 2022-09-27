@@ -31,7 +31,7 @@ const Homepage = () => {
             <div className='textHomeWrapper'>
                 <h1>Ardi Ferdyhana</h1>
                 <p>I'm Software Enginner</p>
-                <div className='contactWrapper'>
+                <div className='iconWrapper'>
                     <IconButton variant='ghost' aria-label='instagram' icon={<RiInstagramFill />} />
                     <IconButton variant='ghost' aria-label='linkedin' icon={<RiLinkedinBoxFill />} />
                     <IconButton variant='ghost' aria-label='twitter' icon={<RiTwitterFill />} />
