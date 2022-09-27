@@ -1,4 +1,5 @@
-import { Image } from '@chakra-ui/react'
+import { Progress, Image, Grid, GridItem } from '@chakra-ui/react'
+import avatarImage from '../Assets/image/avatarImage.jpg'
 
 const About = () => {
     return(
@@ -12,9 +13,8 @@ const About = () => {
             </p>
             <div className='aboutContentWrapper'>
                 <Image
-                    border='1px'
-                    boxSize='250px'
-                    // src={Img}
+                    boxSize='300px'
+                    src={avatarImage}
                     alt='Avatar'
                 />
                 <div className='aboutContent'>
@@ -32,7 +32,7 @@ const About = () => {
                             </li>
                             <li>
                                 <strong>City: </strong>
-                                <p1>13 February 1999</p1>
+                                <p1>Jakarta</p1>
                             </li>
                         </ul>
                         <ul>
@@ -61,6 +61,54 @@ const About = () => {
                     </p1>
                 </div>
 
+            </div>
+            <h1>SKILLS</h1>
+            <div className='underLine'></div>
+            <div className='skillsContent'>
+                <p>Magnam dolores commodi suscipit.
+                    Necessitatibus eius consequatur ex aliquid fuga eum quidem.
+                    Sit sint consectetur velit. Quisquam quos quisquam cupiditate.
+                    Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
+                </p>
+                <Grid
+                    h='200px'
+                    templateRows='repeat(6, 1fr)'
+                    templateColumns='repeat(4, 1fr)'
+                    columnGap={20}
+                    rowGap={3}
+                    paddingTop='30px'
+                    >
+                    <GridItem rowSpan={1} colSpan={1}>C++</GridItem>
+                    <GridItem rowSpan={1} colSpan={1} textAlign='right'>80%</GridItem>
+                    <GridItem rowSpan={1} colSpan={1}>C++</GridItem>
+                    <GridItem rowSpan={1} colSpan={1} textAlign='right'>80%</GridItem>
+                    <GridItem rowSpan={1} colSpan={2}>
+                        <Progress value={80} colorScheme='teal'/>
+                    </GridItem>
+                    <GridItem rowSpan={1} colSpan={2}>
+                        <Progress value={80} colorScheme='teal'/>
+                    </GridItem>
+                    <GridItem rowSpan={1} colSpan={1}>C++</GridItem>
+                    <GridItem rowSpan={1} colSpan={1} textAlign='right'>80%</GridItem>
+                    <GridItem rowSpan={1} colSpan={1}>C++</GridItem>
+                    <GridItem rowSpan={1} colSpan={1}textAlign='right'>80%</GridItem>
+                    <GridItem rowSpan={1} colSpan={2}>
+                        <Progress value={80} colorScheme='teal'/>
+                    </GridItem>
+                    <GridItem rowSpan={1} colSpan={2}>
+                        <Progress value={80} colorScheme='teal'/>
+                    </GridItem>
+                    <GridItem rowSpan={1} colSpan={1}>C++</GridItem>
+                    <GridItem rowSpan={1} colSpan={1} textAlign='right'>80%</GridItem>
+                    <GridItem rowSpan={1} colSpan={1}>C++</GridItem>
+                    <GridItem rowSpan={1} colSpan={1}textAlign='right'>80%</GridItem>
+                    <GridItem rowSpan={1} colSpan={2}>
+                        <Progress value={80} colorScheme='teal'/>
+                    </GridItem>
+                    <GridItem rowSpan={1} colSpan={2}>
+                        <Progress value={80} colorScheme='teal'/>
+                    </GridItem>
+                </Grid>
             </div>
         </div>
     )
