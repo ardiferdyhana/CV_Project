@@ -3,7 +3,7 @@ import avatarImage from '../Assets/image/avatarImage.jpg'
 
 const About = () => {
     return(
-        <div className='aboutWrapper'>
+        <div className='aboutWrapper' id='about'>
             <h1>ABOUT</h1>
             <div className='underLine'></div>
             <p>

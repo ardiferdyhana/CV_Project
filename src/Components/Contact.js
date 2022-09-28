@@ -3,7 +3,7 @@ import {FiMail,FiMapPin,FiSmartphone} from "react-icons/fi"
 
 const Contact = () => {
     return (
-        <div className="contactWrapper">
+        <div className="contactWrapper" id="contact">
             <h1>CONTACT</h1>
             <div className='underLine'></div>
             <br></br>

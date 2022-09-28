@@ -57,6 +57,11 @@
   color: white;
 }
 
+.activeTheme{
+  background-color: #bd0000 !important;
+  color: white;
+}
+
 span{
   display: none;
 }
@@ -64,6 +69,10 @@ span{
 .navBarWrapper button:hover .spanBtn{
   display: block;
   color: white;
+}
+
+.navBarWrapper a:link {
+  text-decoration: none;
 }
 
 
@@ -265,7 +274,7 @@ span{
 }
 
 .infoContainer{
-  width: 30%;
+  width: 40%;
 }
 
 .infoContainer button{
@@ -278,9 +287,38 @@ span{
 }
 
 .messageContainer{
-  width: 70%;
+  width: 60%;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
   align-items: center;
+}
+
+.footerWrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+  margin-top: 30px;
+  padding-top: 30px;
+  background-color: rgb(247, 248, 249);
+}
+
+.iconWrapper2 button{
+  font-size:larger;
+  background-color: #3182ce;
+  color: white;
+  margin: 10px 8px 10px 8px;
+}
+
+.footerWrapper h1{
+  font-size:40px;
+  font-family: 'Raleway';
+  font-weight: 600;
+  color:#45505b;
+  letter-spacing: 2px;
+}
+
+.footerWrapper i{
+  margin: 20px 0px 30px 0px;
 }
