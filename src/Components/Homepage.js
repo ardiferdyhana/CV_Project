@@ -6,46 +6,54 @@ import { RiInstagramFill, RiLinkedinBoxFill, RiTwitterFill, RiWhatsappFill, RiMa
 
 const Homepage = () => {
 
-    const [isActive, setActive] = useState(false);
-
-    const toggleClass = () => {
-        setActive((current) => !current);
-    };
-
-    const handleClick = event => {
-        //event.currentTarget.classList.remove('activeTheme');
-        event.currentTarget.classList.toggle('activeTheme');
-       
-        
-    }
+    const sections = document.querySelectorAll("div");
+    const navLi = document.querySelectorAll(".navBarWrapper");
+    window.onscroll = () => {
+      var current = "";
     
+      sections.forEach((section) => {
+        const sectionTop = section.offsetTop;
+        if (window.pageYOffset >= sectionTop) {
+          current = section.getAttribute("id");
+          console.log(current);  
+        }
+      });
+    
+      navLi.forEach((button) => {
+        button.classList.remove("active");
+        if (button.classList.contains(current)) {
+          button.classList.add("active");
+          console.log("this button active")
+        }
+      });
+    };
 
     return(
         <div className='homepageWrapper' id='home'>
             <div className="navBarWrapper">
                 <Link href='#home'>
-                    <Button onClick={handleClick} leftIcon={<FiHome />} colorScheme='blue' variant='solid' size='lg'>
+                    <Button className='home' leftIcon={<FiHome />} colorScheme='blue' variant='solid' size='lg'>
                         <span className='spanBtn'>
                             Home
                         </span>
                     </Button>
                 </Link>
                 <Link href='#about'>
-                    <Button onClick={handleClick} leftIcon={<FiUser />} colorScheme='blue' variant='solid' size='lg'>
+                    <Button leftIcon={<FiUser />} colorScheme='blue' variant='solid' size='lg'>
                         <span className='spanBtn'>
                             About
                         </span>
                     </Button>
                 </Link>
                 <Link href='#resume'>
-                    <Button  onClick={handleClick} leftIcon={<FiFile />} colorScheme='blue' variant='solid' size='lg'>
+                    <Button  leftIcon={<FiFile />} colorScheme='blue' variant='solid' size='lg'>
                         <span className='spanBtn'>
                             Resume
                         </span>
                     </Button>
                 </Link>
                 <Link href='#contact'>
-                    <Button onClick={handleClick} leftIcon={<FiMail />} colorScheme='blue' variant='solid' size='lg'>
+                    <Button leftIcon={<FiMail />} colorScheme='blue' variant='solid' size='lg'>
                         <span className='spanBtn'>
                             Contact
                         </span>
