@@ -8,7 +8,8 @@ import Footer from './Components/Footer';
 
 
 function App() {
-  // 2. Wrap ChakraProvider at the root of your app
+
+
   return (
     <ChakraProvider>
       <Homepage />
@@ -21,3 +22,4 @@ function App() {
 }
 
 export default App;
+

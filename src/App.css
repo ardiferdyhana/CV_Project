@@ -57,8 +57,10 @@
   color: white;
 }
 
-.active{
-  background-color: #bd0000 !important;
+
+
+.active button{
+  background-color: #3182ce !important;
   color: white;
 }
 

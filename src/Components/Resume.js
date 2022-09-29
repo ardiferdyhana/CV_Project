@@ -3,7 +3,7 @@ import {BsCircle} from "react-icons/bs";
 
 const Resume = () => {
     return(
-        <div className="resumeWrapper" id="resume">
+        <section className="resumeWrapper" id="resume">
             <h1>RESUME</h1>
             <div className='underLine'></div>
             <p>
@@ -95,7 +95,7 @@ const Resume = () => {
                 </div>
             </div>
 
-        </div>
+        </section>
     )
 }
 

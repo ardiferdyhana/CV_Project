@@ -3,7 +3,7 @@ import avatarImage from '../Assets/image/avatarImage.jpg'
 
 const About = () => {
     return(
-        <div className='aboutWrapper' id='about'>
+        <section className='aboutWrapper' id='about'>
             <h1>ABOUT</h1>
             <div className='underLine'></div>
             <p>
@@ -24,34 +24,29 @@ const About = () => {
                     <div className='listWrapper'>
                         <ul>
                             <li>
-                                <strong>Birthday: </strong>
-                                <p1>13 February 1999</p1>
+                                <strong>Birthday: </strong> 13 February 1999
                             </li>
                             <li>
-                                <strong>Phone: </strong>
-                                <p1>+6285799791379</p1>
+                                <strong>Phone: </strong> +6285799791379
                             </li>
                             <li>
-                                <strong>City: </strong>
-                                <p1>Jakarta</p1>
+                                <strong>City: </strong> Jakarta
+
                             </li>
                         </ul>
                         <ul>
                             <li>
-                                <strong>Age: </strong>
-                                <p1>23</p1>
+                                <strong>Age: </strong> 23
                             </li>
                             <li>
-                                <strong>Degre: </strong>
-                                <p1>Bachelor</p1>
+                                <strong>Degre: </strong> Bachelor
                             </li>
                             <li>
-                                <strong>Email: </strong>
-                                <p1>ardi.ferdyhana@gmail.com</p1>
+                                <strong>Email: </strong> ardi.ferdyhana@gmail.com
                             </li>
                         </ul>
                     </div>
-                    <p1>
+                    
                         Officiis eligendi itaque labore et dolorum mollitia officiis optio vero.
                         Quisquam sunt adipisci omnis et ut.
                         Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
@@ -59,7 +54,7 @@ const About = () => {
                         Sed et consectetur qui quia repellendus itaque neque.
                         Aliquid amet quidem ut quaerat cupiditate.
                         Ab et eum qui repellendus omnis culpa magni laudantium dolores.
-                    </p1>
+                    
                 </div>
 
             </div>
@@ -111,7 +106,7 @@ const About = () => {
                     </GridItem>
                 </Grid>
             </div>
-        </div>
+        </section>
     )
 }
 

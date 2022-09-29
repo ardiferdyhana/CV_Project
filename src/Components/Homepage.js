@@ -5,54 +5,52 @@ import { RiInstagramFill, RiLinkedinBoxFill, RiTwitterFill, RiWhatsappFill, RiMa
 
 
 const Homepage = () => {
-
-    const sections = document.querySelectorAll("div");
-    const navLi = document.querySelectorAll(".navBarWrapper");
+    const sections = document.querySelectorAll("section");
+    const navLi = document.querySelectorAll(".navBarWrapper a");
     window.onscroll = () => {
       var current = "";
-    
       sections.forEach((section) => {
         const sectionTop = section.offsetTop;
+        console.log(window.pageYOffset,sectionTop); 
         if (window.pageYOffset >= sectionTop) {
           current = section.getAttribute("id");
-          console.log(current);  
+           
         }
       });
     
-      navLi.forEach((button) => {
-        button.classList.remove("active");
-        if (button.classList.contains(current)) {
-          button.classList.add("active");
-          console.log("this button active")
+      navLi.forEach((a) => {        
+        a.classList.remove("active");
+        if (a.classList.contains(current)) {
+          a.classList.add("active");
         }
       });
     };
 
     return(
-        <div className='homepageWrapper' id='home'>
-            <div className="navBarWrapper">
-                <Link href='#home'>
-                    <Button className='home' leftIcon={<FiHome />} colorScheme='blue' variant='solid' size='lg'>
+        <section className='homepageWrapper' id='home'>
+            <div className="navBarWrapper" id='navbarSection'>
+                <Link className='home' href='#home'>
+                    <Button leftIcon={<FiHome />} colorScheme='blue' variant='solid' size='lg'>
                         <span className='spanBtn'>
                             Home
                         </span>
                     </Button>
                 </Link>
-                <Link href='#about'>
+                <Link className='about' href='#about'>
                     <Button leftIcon={<FiUser />} colorScheme='blue' variant='solid' size='lg'>
                         <span className='spanBtn'>
                             About
                         </span>
                     </Button>
                 </Link>
-                <Link href='#resume'>
+                <Link className='resume' href='#resume'>
                     <Button  leftIcon={<FiFile />} colorScheme='blue' variant='solid' size='lg'>
                         <span className='spanBtn'>
                             Resume
                         </span>
                     </Button>
                 </Link>
-                <Link href='#contact'>
+                <Link className='contact' href='#contact'>
                     <Button leftIcon={<FiMail />} colorScheme='blue' variant='solid' size='lg'>
                         <span className='spanBtn'>
                             Contact
@@ -81,7 +79,7 @@ const Homepage = () => {
                     </Link>    
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 
