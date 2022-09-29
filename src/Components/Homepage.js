@@ -12,7 +12,7 @@ const Homepage = () => {
       sections.forEach((section) => {
         const sectionTop = section.offsetTop;
         console.log(window.pageYOffset,sectionTop); 
-        if (window.pageYOffset >= sectionTop) {
+        if (window.pageYOffset >= sectionTop - 400) {
           current = section.getAttribute("id");
            
         }
