@@ -26,38 +26,3 @@ const ActiveNavbar = () => {
 }
 
 export default ActiveNavbar
-
- {/* <Stack direction='row'>
-                            <Image
-                                boxSize={'250px'}
-                                src={krti1}
-                                alt='KRTI Picture'
-                            />
-                            <Image
-                                boxSize={'250px'}
-                                src={krti2}
-                                alt='KRTI Picture'
-                            />
-                            <Image 
-                                boxSize={'250px'}
-                                src={krti3} 
-                                alt='KRTI Picture'
-                            />
-                        </Stack>
-                        <Stack direction='row'>
-                            <Image
-                                boxSize={'250px'}
-                                src={krti4}
-                                alt='KRTI Picture'
-                            />
-                            <Image
-                                boxSize={'250px'}
-                                src={krti5}
-                                alt='KRTI Picture'
-                            />
-                            <Image
-                                boxSize={'250px'}   
-                                src={krti6} 
-                                alt='KRTI Picture'
-                            />
-                        </Stack> */}
