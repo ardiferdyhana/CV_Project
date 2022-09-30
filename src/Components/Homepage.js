@@ -1,35 +1,15 @@
 import { Button, IconButton, Link } from '@chakra-ui/react'
 import { useState } from 'react';
-import { FiHome, FiUser, FiFile, FiMail } from 'react-icons/fi';
+import { FiHome, FiUser, FiFile, FiMail, FiAward } from 'react-icons/fi';
 import { RiInstagramFill, RiLinkedinBoxFill, RiTwitterFill, RiWhatsappFill, RiMailFill} from "react-icons/ri";
 
 
 const Homepage = () => {
-    const sections = document.querySelectorAll("section");
-    const navLi = document.querySelectorAll(".navBarWrapper a");
-    window.onscroll = () => {
-      var current = "";
-      sections.forEach((section) => {
-        const sectionTop = section.offsetTop;
-        console.log(window.pageYOffset,sectionTop); 
-        if (window.pageYOffset >= sectionTop - 400) {
-          current = section.getAttribute("id");
-           
-        }
-      });
-    
-      navLi.forEach((a) => {        
-        a.classList.remove("active");
-        if (a.classList.contains(current)) {
-          a.classList.add("active");
-        }
-      });
-    };
-
+   
     return(
         <section className='homepageWrapper' id='home'>
             <div className="navBarWrapper" id='navbarSection'>
-                <Link className='home' href='#home'>
+                <Link className='home active' href='#home'>
                     <Button leftIcon={<FiHome />} colorScheme='blue' variant='solid' size='lg'>
                         <span className='spanBtn'>
                             Home
@@ -50,6 +30,13 @@ const Homepage = () => {
                         </span>
                     </Button>
                 </Link>
+                <Link className='achievement' href='#achievement'>
+                    <Button  leftIcon={<FiAward />} colorScheme='blue' variant='solid' size='lg'>
+                        <span className='spanBtn'>
+                            Achievement
+                        </span>
+                    </Button>
+                </Link>
                 <Link className='contact' href='#contact'>
                     <Button leftIcon={<FiMail />} colorScheme='blue' variant='solid' size='lg'>
                         <span className='spanBtn'>
@@ -63,7 +50,7 @@ const Homepage = () => {
                 <p>I'm Software Enginner</p>
                 <div className='iconWrapper'>
                     <Link href='https://www.instagram.com/ardi_ferdyhana/' isExternal>
-                        <IconButton isActive variant='ghost' aria-label='instagram' icon={<RiInstagramFill />} />
+                        <IconButton variant='ghost' aria-label='instagram' icon={<RiInstagramFill />} />
                     </Link>
                     <Link href='https://www.linkedin.com/in/ardiferdyhana' isExternal>
                         <IconButton variant='ghost' aria-label='linkedin' icon={<RiLinkedinBoxFill />} />

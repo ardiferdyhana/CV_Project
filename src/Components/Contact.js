@@ -6,8 +6,6 @@ const Contact = () => {
         <section className="contactWrapper" id="contact">
             <h1>CONTACT</h1>
             <div className='underLine'></div>
-            <br></br>
-            <br></br>
             <div className="contactContentWrapper">
                 <div className="infoContainer">
                     <Grid

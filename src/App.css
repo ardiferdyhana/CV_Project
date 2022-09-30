@@ -53,11 +53,9 @@
 }
 
 .navBarWrapper button:hover{
-  width: 130px;
+  width: 160px;
   color: white;
 }
-
-
 
 .active button{
   background-color: #3182ce !important;
@@ -91,7 +89,7 @@ span{
   font-size: 64px;
   font-weight: 600;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: #45505b;
+  color: #000000;
 }
 
 .textHomeWrapper p{
@@ -273,6 +271,7 @@ span{
   width: 100%;
   display:flex;
   flex-direction: row;
+  margin-top: 40px;
 }
 
 .infoContainer{
@@ -303,7 +302,7 @@ span{
   height: 300px;
   margin-top: 30px;
   padding-top: 30px;
-  background-color: rgb(247, 248, 249);
+  background-color: rgba(0, 0, 0, 0.918);
 }
 
 .iconWrapper2 button{
@@ -317,10 +316,83 @@ span{
   font-size:40px;
   font-family: 'Raleway';
   font-weight: 600;
-  color:#45505b;
+  color:#ffffff;
   letter-spacing: 2px;
 }
 
 .footerWrapper i{
   margin: 20px 0px 30px 0px;
+  color: white;
+}
+
+.achievementWrapper{
+  margin: 30px 3% 30px 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.achievementWrapper h1{
+  font-size:30px;
+  font-family: 'Raleway';
+  font-weight: 600;
+  color: #39393a;
+}
+
+
+.achievementWrapper .underLine{
+  border: 1px solid #3182ce;
+  background-color: #3182ce;
+  width: 200px;
+  height: 1px;
+  opacity: 60%;
+  margin-top: 7px;
+}
+
+.honorWrapper{
+  width: 100%;
+  margin-top: 30px;
+  padding: 0px 30px 0px 30px;
+}
+
+.honorWrapper h2{
+  font-size:24px;
+  font-family:'Raleway';
+  font-weight: 600;
+  color: #39393a;
+}
+
+.honorContent{
+  padding: 10px 0px 10px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.honorContent button{
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background: none;
+  text-decoration: none;
+  border: 1px solid #e6e6e6;
+}
+
+.honorContent h3{
+  font-weight: 100;
+}
+
+.honorContent a{
+  font-weight: 100;
+}
+
+.flexLeft{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 20px;
+}
+
+.flexCenter{
+  text-align: center;
 }
