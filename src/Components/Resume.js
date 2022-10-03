@@ -6,12 +6,12 @@ const Resume = () => {
         <section className="resumeWrapper" id="resume">
             <h1>RESUME</h1>
             <div className='underLine'></div>
-            <p>
+            {/* <p>
             Magnam dolores commodi suscipit.
             Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit.
             Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
             Quia fugiat sit in iste officiis commodi quidem hic quas.
-            </p>
+            </p> */}
             <div className="resumeContentWrapper">
                 <div className="resumeContent">
                     <h2>SUMMARY</h2>     
