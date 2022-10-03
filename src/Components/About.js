@@ -79,25 +79,26 @@ const About = () => {
                 </p>
                 <Grid
                     h='200px'
-                    templateRows='repeat(6, 1fr)'
+                    templateRows='repeat(10, 1fr)'
                     templateColumns='repeat(4, 1fr)'
                     columnGap={20}
                     rowGap={3}
                     paddingTop='30px'
                     >
-                    <GridItem rowSpan={1} colSpan={1}>C++</GridItem>
-                    <GridItem rowSpan={1} colSpan={1} textAlign='right'>80%</GridItem>
+                    <GridItem rowSpan={1} colSpan={1}>Linux/Ubuntu</GridItem>
+                    <GridItem rowSpan={1} colSpan={1} textAlign='right'>90%</GridItem>
                     <GridItem rowSpan={1} colSpan={1}>C++</GridItem>
                     <GridItem rowSpan={1} colSpan={1} textAlign='right'>80%</GridItem>
                     <GridItem rowSpan={1} colSpan={2}>
-                        <Progress value={80} colorScheme='teal'/>
+                        <Progress value={90} colorScheme='teal'/>
                     </GridItem>
                     <GridItem rowSpan={1} colSpan={2}>
                         <Progress value={80} colorScheme='teal'/>
                     </GridItem>
-                    <GridItem rowSpan={1} colSpan={1}>C++</GridItem>
+
+                    <GridItem rowSpan={1} colSpan={1}>Qt</GridItem>
                     <GridItem rowSpan={1} colSpan={1} textAlign='right'>80%</GridItem>
-                    <GridItem rowSpan={1} colSpan={1}>C++</GridItem>
+                    <GridItem rowSpan={1} colSpan={1}>HTML</GridItem>
                     <GridItem rowSpan={1} colSpan={1}textAlign='right'>80%</GridItem>
                     <GridItem rowSpan={1} colSpan={2}>
                         <Progress value={80} colorScheme='teal'/>
@@ -105,15 +106,38 @@ const About = () => {
                     <GridItem rowSpan={1} colSpan={2}>
                         <Progress value={80} colorScheme='teal'/>
                     </GridItem>
-                    <GridItem rowSpan={1} colSpan={1}>C++</GridItem>
-                    <GridItem rowSpan={1} colSpan={1} textAlign='right'>80%</GridItem>
-                    <GridItem rowSpan={1} colSpan={1}>C++</GridItem>
+
+                    <GridItem rowSpan={1} colSpan={1}>PLC</GridItem>
+                    <GridItem rowSpan={1} colSpan={1} textAlign='right'>70%</GridItem>
+                    <GridItem rowSpan={1} colSpan={1}>CSS</GridItem>
                     <GridItem rowSpan={1} colSpan={1}textAlign='right'>80%</GridItem>
+                    <GridItem rowSpan={1} colSpan={2}>
+                        <Progress value={70} colorScheme='teal'/>
+                    </GridItem>
+                    <GridItem rowSpan={1} colSpan={2}>
+                        <Progress value={80} colorScheme='teal'/>
+                    </GridItem>
+
+                    <GridItem rowSpan={1} colSpan={1}>SQL</GridItem>
+                    <GridItem rowSpan={1} colSpan={1} textAlign='right'>60%</GridItem>
+                    <GridItem rowSpan={1} colSpan={1}>React JS</GridItem>
+                    <GridItem rowSpan={1} colSpan={1}textAlign='right'>70%</GridItem>
+                    <GridItem rowSpan={1} colSpan={2}>
+                        <Progress value={60} colorScheme='teal'/>
+                    </GridItem>
+                    <GridItem rowSpan={1} colSpan={2}>
+                        <Progress value={70} colorScheme='teal'/>
+                    </GridItem>
+
+                    <GridItem rowSpan={1} colSpan={1}>Phyton</GridItem>
+                    <GridItem rowSpan={1} colSpan={1} textAlign='right'>80%</GridItem>
+                    <GridItem rowSpan={1} colSpan={1}>Javascript</GridItem>
+                    <GridItem rowSpan={1} colSpan={1}textAlign='right'>60%</GridItem>
                     <GridItem rowSpan={1} colSpan={2}>
                         <Progress value={80} colorScheme='teal'/>
                     </GridItem>
                     <GridItem rowSpan={1} colSpan={2}>
-                        <Progress value={80} colorScheme='teal'/>
+                        <Progress value={60} colorScheme='teal'/>
                     </GridItem>
                 </Grid>
             </div>

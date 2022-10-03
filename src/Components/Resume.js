@@ -14,80 +14,86 @@ const Resume = () => {
             </p> */}
             <div className="resumeContentWrapper">
                 <div className="resumeContent">
-                    <h2>SUMMARY</h2>     
+                    <h2>Education</h2>     
                     <div className="Container">
-                        <h3><Icon as={BsCircle} color='#3182ce' fontSize={20} position='relative' left='-11px' backgroundColor='white' />Ardi Ferdyhana</h3>
+                        <h3><Icon as={BsCircle} color='#3182ce' fontSize={20} position='relative' left='-11px' backgroundColor='white' />
+                            Physics - University of Indonesia
+                        </h3>
                         <div className="content">
-                            <i>Innovative and deadline-driven Graphic Designer
-                                with 3+ years of experience designing and developing user-centered digital/print marketing material
-                                from initial concept to final, polished deliverable.
+                            <i>
+                                My Bachelor Thesis is about control system design and machine learning with the title 
+                                “Design of Water Level Control System Based on PLC and Reinforcement Learning with Policy Gradient Agent“
                             </i>
                             <ul>
-                                <li>Jakarta, Indonesia</li>
-                                <li> +6285799791379</li>
-                                <li>ardi.ferdyhana@gmail.com</li>
+                                <li>Specialization in instrumentation systems</li>
+                                <li>Graduated Cum Laude with a GPA of 3.54 out of 4.00</li>
                             </ul>
                         </div>
                     </div>
 
                     <br></br>
 
-                    <h2>EDUCATION</h2>     
+                    <h2>Organization Experience</h2>     
                     <div className="Container">
-                        <h3><Icon as={BsCircle} color='#3182ce' fontSize={20} position='relative' left='-11px' backgroundColor='white' />Ardi Ferdyhana</h3>
+                        <h3><Icon as={BsCircle} color='#3182ce' fontSize={20} position='relative' left='-11px' backgroundColor='white' />
+                            UAV Team - University of Indonesia Robotics Team
+                        </h3>
                         <div className="content">
-                            <i>Innovative and deadline-driven Graphic Designer
-                                with 3+ years of experience designing and developing user-centered digital/print marketing material
-                                from initial concept to final, polished deliverable.
-                            </i>
+                            <i> Dec 2017 - Jun 2020</i>
                             <ul>
-                                <li>Jakarta, Indonesia</li>
-                                <li> +6285799791379</li>
-                                <li>ardi.ferdyhana@gmail.com</li>
+                                <li>Assembling electronic parts for racing plane UAV</li>
+                                <li>perform efficiency calculations to select electronic components so that the UAV racing plane works optimally</li>
+                                <li>Configure signal transmission for data transmission from UAV to Ground ControlStation using telemetry</li>
+                                <li>Configure the required parameters for the autopilot system on the UAV</li>
+                                <li>Programming UAV control for a specific mission</li>
+                                <li>Applying computer vision to the HybridQuadplane UAV to detect objects</li>
                             </ul>
                         </div>
-                        <br></br>
-                        <h3><Icon as={BsCircle} color='#3182ce' fontSize={20} position='relative' left='-11px' backgroundColor='white' /> Ardi Ferdyhana </h3>
-                        <div className="content">
-                            <i>Innovative and deadline-driven Graphic Designer
-                                with 3+ years of experience designing and developing user-centered digital/print marketing material
-                                from initial concept to final, polished deliverable.
-                            </i>
-                            <ul>
-                                <li>Jakarta, Indonesia</li>
-                                <li> +6285799791379</li>
-                                <li>ardi.ferdyhana@gmail.com</li>
-                            </ul>
-                        </div>
-                    </div> 
+                    </div>
                 </div>
                 
                 <div className="resumeContent">
-                    <h2>EDUCATION</h2>     
+                    <h2>Experience</h2>  
                     <div className="Container">
-                        <h3><Icon as={BsCircle} color='#3182ce' fontSize={20} position='relative' left='-11px' backgroundColor='white' />Ardi Ferdyhana</h3>
+                        <h3><Icon as={BsCircle} color='#3182ce' fontSize={20} position='relative' left='-11px' backgroundColor='white' />
+                        System Engineer - PT Yokogawa Indonesia.</h3> 
                         <div className="content">
-                            <i>Innovative and deadline-driven Graphic Designer
-                                with 3+ years of experience designing and developing user-centered digital/print marketing material
-                                from initial concept to final, polished deliverable.
-                            </i>
+                            <i>Jul 2020 - Aug 2020</i>
                             <ul>
-                                <li>Jakarta, Indonesia</li>
-                                <li> +6285799791379</li>
-                                <li>ardi.ferdyhana@gmail.com</li>
+                                <li>Develops and Configures DistributedControl System(DCS)</li>
+                                <li>Performs internal test of DCS database, graphics, and control application</li>
+                                <li>Assist in conducting Factory Acceptance Test (FAT) for DCS Application</li>
                             </ul>
                         </div>
                         <br></br>
-                        <h3><Icon as={BsCircle} color='#3182ce' fontSize={20} position='relative' left='-11px' backgroundColor='white' /> Ardi Ferdyhana </h3>
+                        <h3><Icon as={BsCircle} color='#3182ce' fontSize={20} position='relative' left='-11px' backgroundColor='white' />
+                        Robotics Tutor - Artificial Intelligence Center Indonesia</h3>
                         <div className="content">
-                            <i>Innovative and deadline-driven Graphic Designer
-                                with 3+ years of experience designing and developing user-centered digital/print marketing material
-                                from initial concept to final, polished deliverable.
-                            </i>
+                            <i>Jul 2020 - Nov 2021</i>
                             <ul>
-                                <li>Jakarta, Indonesia</li>
-                                <li> +6285799791379</li>
-                                <li>ardi.ferdyhana@gmail.com</li>
+                                <li>Teaching programming and AI knowledge through robotics</li>
+                                <li> Teaching to create a mobile application for robot controller</li>
+                            </ul>
+                        </div>
+                        <h3><Icon as={BsCircle} color='#3182ce' fontSize={20} position='relative' left='-11px' backgroundColor='white' />
+                            Programming Tutor - Jakarta Coding Academy</h3>
+                        <div className="content">
+                            <i>Oct 2020 - Nov 2021</i>
+                            <ul>
+                                <li>Teaching Lua Programming language to the elementary student using games as a media platform called ROBLOX</li>
+                            </ul>
+                        </div>
+                        <br></br>
+                        <h3><Icon as={BsCircle} color='#3182ce' fontSize={20} position='relative' left='-11px' backgroundColor='white' />
+                        Software Engineer - PT Respati Solusi Teknologi </h3>
+                        <div className="content">
+                            <i>Nov 2021 - Present</i>
+                            <ul>
+                                <li>Design and develop software that the client needs according to software requirements specification</li>
+                                <li>Directly involved in the field for program acceptance test</li>
+                                <li>Troubleshoot, debug and upgrade existing systems</li>
+                                <li>Work alongside other engineers on the team to elevate technology and consistently apply best practices.</li>
+                                <li>Document and maintain software functionality</li>
                             </ul>
                         </div>
                     </div> 

@@ -187,7 +187,8 @@ span{
 }
 
 .skillsContent{
-  padding: 10px 0px 60px 0px;
+  margin: 30px 0px 30px 0px;
+  height: 400px
 }
 
 .resumeWrapper{
@@ -196,7 +197,6 @@ span{
   align-items: center;
   margin: 30px 3% 30px 10%;
   margin-left: 10%;
-
 }
 
 .resumeWrapper h1{
@@ -218,6 +218,10 @@ span{
   width: 100%;
   justify-content: space-between;
   padding: 40px 10px 20px 10px;
+}
+
+.resumeContent{
+  width: 49%;
 }
 
 .resumeWrapper h2{
