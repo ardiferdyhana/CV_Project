@@ -1,4 +1,4 @@
-import { Link, Button, Collapse, Box, useDisclosure, Image, Stack} from '@chakra-ui/react'
+import { Link, Button, Collapse, Box, useDisclosure, Image} from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import Gallery from "react-photo-gallery"
 import Photos from './PhotoList.js'
