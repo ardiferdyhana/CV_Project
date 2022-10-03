@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7c72a977.css",
+    "main.js": "/static/js/main.2086ac6c.js",
+    "static/js/787.7c4568c2.chunk.js": "/static/js/787.7c4568c2.chunk.js",
+    "static/media/avatarImage2.jpg": "/static/media/avatarImage2.b4b9c27cadc57da66d82.jpg",
+    "static/media/backgroundImage1.jpg": "/static/media/backgroundImage1.13d14d15eb50a5722e1f.jpg",
+    "static/media/omronSertif.png": "/static/media/omronSertif.4a58aa3652759ff46ae0.png",
+    "static/media/ideathon.jpeg": "/static/media/ideathon.33b41c230fe69f037962.jpeg",
+    "static/media/intelSertif.png": "/static/media/intelSertif.c9fd741804813bd06d54.png",
+    "static/media/udemySertif.png": "/static/media/udemySertif.0d1e811f4e495ea34588.png",
+    "static/media/KRTI2018.jpg": "/static/media/KRTI2018.6dbb140895e651c4da5f.jpg",
+    "static/media/udemy.png": "/static/media/udemy.12cb9fc3abf76ac9652d.png",
+    "index.html": "/index.html",
+    "main.7c72a977.css.map": "/static/css/main.7c72a977.css.map",
+    "main.2086ac6c.js.map": "/static/js/main.2086ac6c.js.map",
+    "787.7c4568c2.chunk.js.map": "/static/js/787.7c4568c2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c72a977.css",
+    "static/js/main.2086ac6c.js"
+  ]
+}
