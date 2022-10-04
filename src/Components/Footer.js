@@ -1,11 +1,11 @@
-import { Button, IconButton, Link } from '@chakra-ui/react'
+import { IconButton, Link } from '@chakra-ui/react'
 import { RiInstagramFill, RiLinkedinBoxFill, RiTwitterFill, RiWhatsappFill, RiMailFill} from "react-icons/ri";
 
 const Footer = () => {
     return(
         <div className="footerWrapper">
-            <h1>Ardi Ferdyhana</h1>
-            <i>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</i>
+            {/* <h1>Ardi Ferdyhana</h1> */}
+            {/* <i>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</i> */}
             <div className='iconWrapper2'>
                     <Link href='https://www.instagram.com/ardi_ferdyhana/' isExternal>
                         <IconButton borderRadius={'full'} variant='solid' aria-label='instagram' icon={<RiInstagramFill />} />
@@ -23,6 +23,7 @@ const Footer = () => {
                         <IconButton borderRadius={'full'} variant='solid' aria-label='email' icon={<RiMailFill />} />
                     </Link>    
             </div>
+            <h2>Copyright &#169; 2022. Ardi Ferdyhana </h2>
         </div>
     )
 }

@@ -20,7 +20,7 @@
   width: 100%;
   height: 100vh;
   opacity: 0.2;
-  background-image: url('../src/Assets/image/backgroundImage1.jpg');
+  background-image: url('../src/Assets/image/backgroundImage2.jpg');
   background-size: cover;
   background-position:bottom;
 }
@@ -262,6 +262,28 @@ span{
   top: -4px;
 }
 
+.overlayTrigger:hover .overlayContent{
+ display: block;
+ background: none;
+ height: 284px;
+ z-index: 2;
+ position: relative;
+ top: 50px;
+ left: 480px;
+ margin-top: -142px;
+ margin-bottom: -142px;
+ padding: 4px;
+}
+
+.overlayBg:hover{
+  background-color: #e2e2e2 !important;
+  margin-top: 10px;
+}
+
+.overlayContent{
+  display: none;
+}
+
 .contactWrapper{
   margin: 30px 3% 30px 10%;
   display: flex;
@@ -309,9 +331,9 @@ span{
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 300px;
+  justify-content: center;
+  height: 150px;
   margin-top: 30px;
-  padding-top: 30px;
   background-color: rgba(0, 0, 0, 0.918);
 }
 
@@ -319,7 +341,7 @@ span{
   font-size:larger;
   background-color: #3182ce;
   color: white;
-  margin: 10px 8px 10px 8px;
+  margin: 0px 8px 20px 8px;
 }
 
 .footerWrapper h1{
@@ -331,7 +353,11 @@ span{
 }
 
 .footerWrapper i{
-  margin: 20px 0px 30px 0px;
+  /* margin: 20px 0px 30px 0px; */
+  color: white;
+}
+
+.footerWrapper h2{
   color: white;
 }
 

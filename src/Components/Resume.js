@@ -1,5 +1,6 @@
-import { Icon } from "@chakra-ui/react"
+import { Icon, Image } from "@chakra-ui/react"
 import {BsCircle} from "react-icons/bs";
+import intelSertif from '../Assets/image/intelSertif.png'
 
 const Resume = () => {
     return(
@@ -15,19 +16,29 @@ const Resume = () => {
             <div className="resumeContentWrapper">
                 <div className="resumeContent">
                     <h2>Education</h2>     
-                    <div className="Container">
+                    <div className="Container overlayBg overlayTrigger">
                         <h3><Icon as={BsCircle} color='#3182ce' fontSize={20} position='relative' left='-11px' backgroundColor='white' />
                             Physics - University of Indonesia
                         </h3>
-                        <div className="content">
+                        <div className="content ">
                             <i>
                                 My Bachelor Thesis is about control system design and machine learning with the title 
                                 “Design of Water Level Control System Based on PLC and Reinforcement Learning with Policy Gradient Agent“
+                                <div className="overlayContent">
+                                    <Image
+                                        borderRadius={'10px'}
+                                        border={'1px solid gray'}
+                                        objectFit='contain'
+                                        src={intelSertif}
+                                        alt='Avatar'
+                                    />
+                                </div>
                             </i>
                             <ul>
                                 <li>Specialization in instrumentation systems</li>
                                 <li>Graduated Cum Laude with a GPA of 3.54 out of 4.00</li>
                             </ul>
+                            
                         </div>
                     </div>
 
@@ -75,6 +86,7 @@ const Resume = () => {
                                 <li> Teaching to create a mobile application for robot controller</li>
                             </ul>
                         </div>
+                        <br></br>
                         <h3><Icon as={BsCircle} color='#3182ce' fontSize={20} position='relative' left='-11px' backgroundColor='white' />
                             Programming Tutor - Jakarta Coding Academy</h3>
                         <div className="content">
