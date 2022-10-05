@@ -36,7 +36,7 @@ const Resume = () => {
                             </i>
                             <ul>
                                 <li>Specialization in instrumentation systems</li>
-                                <li>Graduated Cum Laude with a GPA of 3.54 out of 4.00</li>
+                                <li>Graduated Cumlaude with a GPA of 3.54 out of 4.00</li>
                             </ul>
                             
                         </div>
