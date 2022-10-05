@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.67f420b4.css",
-    "main.js": "/static/js/main.e4627958.js",
+    "main.js": "/static/js/main.001146e0.js",
     "static/js/787.7c4568c2.chunk.js": "/static/js/787.7c4568c2.chunk.js",
     "static/media/avatarImage2.jpg": "/static/media/avatarImage2.b4b9c27cadc57da66d82.jpg",
+    "static/media/cumlaudeSertif.jpg": "/static/media/cumlaudeSertif.c4d63e2dc70669f1c7fa.jpg",
     "static/media/omronSertif.png": "/static/media/omronSertif.4a58aa3652759ff46ae0.png",
     "static/media/ideathon.jpeg": "/static/media/ideathon.33b41c230fe69f037962.jpeg",
     "static/media/intelSertif.png": "/static/media/intelSertif.c9fd741804813bd06d54.png",
@@ -13,11 +14,11 @@
     "static/media/udemy.png": "/static/media/udemy.12cb9fc3abf76ac9652d.png",
     "index.html": "/index.html",
     "main.67f420b4.css.map": "/static/css/main.67f420b4.css.map",
-    "main.e4627958.js.map": "/static/js/main.e4627958.js.map",
+    "main.001146e0.js.map": "/static/js/main.001146e0.js.map",
     "787.7c4568c2.chunk.js.map": "/static/js/787.7c4568c2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.67f420b4.css",
-    "static/js/main.e4627958.js"
+    "static/js/main.001146e0.js"
   ]
 }
