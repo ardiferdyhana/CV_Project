@@ -1,6 +1,6 @@
 import { Icon, Image } from "@chakra-ui/react"
 import {BsCircle} from "react-icons/bs";
-import intelSertif from '../Assets/image/intelSertif.png'
+import cumlaudeSertif from '../Assets/image/cumlaudeSertif.jpg'
 
 const Resume = () => {
     return(
@@ -29,7 +29,7 @@ const Resume = () => {
                                         borderRadius={'10px'}
                                         border={'1px solid gray'}
                                         objectFit='contain'
-                                        src={intelSertif}
+                                        src={cumlaudeSertif}
                                         alt='Avatar'
                                     />
                                 </div>

@@ -59,9 +59,7 @@ const Achievement = () => {
                         shadow='md'
                         >
                         <p>
-                            Kontes Robot Terbang Indonesia (KRTI) adalah kompetisi pesawat tanpa awak (UAV)
-                            paling bergengsi di Indonesia yang diselenggarakan oleh Kementerian Riset, Teknologi, dan Pendidikan Tinggi Republik Indonesia (Ristekdikti) dan diperuntukkan bagi seluruh universitas di Indonesia.
-                            Kompetisi ini diadakan setiap tahunnya di bulan Oktober atau November.
+                            Kontes Robot Terbang Indonesia (KRTI) is Unmanned Aerial Vehicle competition held by Indonesia's ministry of research and technology
                         </p>
                         <br></br>
                         <Gallery photos={Photos} />
@@ -101,9 +99,8 @@ const Achievement = () => {
                         shadow='md'
                         >
                         <p>
-                            Kontes Robot Terbang Indonesia (KRTI) adalah kompetisi pesawat tanpa awak (UAV)
-                            paling bergengsi di Indonesia yang diselenggarakan oleh Kementerian Riset, Teknologi, dan Pendidikan Tinggi Republik Indonesia (Ristekdikti) dan diperuntukkan bagi seluruh universitas di Indonesia.
-                            Kompetisi ini diadakan setiap tahunnya di bulan Oktober atau November.
+                        IDEATHON Indonesia is a competition to find the best idea proposed to solve some problems held by Indonesia's ministry of research and technology.
+                        For IDEATHON Indonesia 2020, the central theme is to deal with the Covid-19 pandemic.IDEATHON
                         </p>
                         <br></br>
                         <Gallery photos={Photos2}/>
