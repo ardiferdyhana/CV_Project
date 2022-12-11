@@ -1,4 +1,5 @@
-import { Button, IconButton, Link } from '@chakra-ui/react';
+import { Button, IconButton, Link } from '@chakra-ui/react'
+
 import { FiHome, FiUser, FiFile, FiMail, FiAward } from 'react-icons/fi';
 import { RiInstagramFill, RiLinkedinBoxFill, RiTwitterFill, RiWhatsappFill, RiMailFill} from "react-icons/ri";
 
