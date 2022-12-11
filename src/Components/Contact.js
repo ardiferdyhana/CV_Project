@@ -1,11 +1,12 @@
 import { Grid, GridItem, IconButton, Input, Textarea, Button, Link } from "@chakra-ui/react"
 import {FiMail,FiMapPin,FiSmartphone} from "react-icons/fi"
 
+
 const Contact = () => {
-    var name = ((document.querySelector('#yourName')||{}).value)||"";
-    var email = ((document.querySelector('#yourEmail')||{}).value)||"";
-    var subject = ((document.querySelector('#yourSubject')||{}).value)||"";
-    var message = ((document.querySelector('#yourMessage')||{}).value)||"";
+    // var name = ((document.querySelector('#yourName')||{}).value)||"";
+    // var email = ((document.querySelector('#yourEmail')||{}).value)||"";
+    // var subject = ((document.querySelector('#yourSubject')||{}).value)||"";
+    // var message = ((document.querySelector('#yourMessage')||{}).value)||"";
     
     return (
         <section className="contactWrapper" id="contact">
@@ -94,7 +95,7 @@ const Contact = () => {
                     <Input id="yourSubject" marginBottom={'20px'} placeholder='Subject' size='md' />
                     <Textarea id="yourMessage" height={'150px'} placeholder='Message' />
                     <Button 
-                        //onClick={SendEmail(name,email,subject,message)}
+                        //onClick={sendEmail(name,email,subject,message)}
                         //onClick={console.log(name,subject,email,message)}
                         mt={4}
                         colorScheme='blue'

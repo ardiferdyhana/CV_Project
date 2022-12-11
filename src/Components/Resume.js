@@ -55,7 +55,7 @@ const Resume = () => {
                         </div>
                     </div>
                 </div>
-                
+                <br></br>
                 <div className="resumeContent">
                     <h2>Experience</h2>  
                     <div className="Container">

@@ -1,30 +1,28 @@
-async function sendEmail(name, email, subject, message) {
-  
-    var b = Buffer.from('06aae484cba6f851c97d5ba328464f76');
-    var apiKey = b.toString('base64');
-    var a =  Buffer.from('933cb07387b79d8471a1428c81c9a3f5');
-    var secretKey = a.toString('base64');
-    const myHeaders = new Headers();
-    myHeaders.append("Content-Type", "application/json");
-    myHeaders.set('Authorization', 'Basic ' + apiKey + ":" + secretKey);
-  
-    const data = JSON.stringify({
-      "Messages": [{
-        "From": {"Email": email, "Name": name},
-        "To": [{"Email":"ardi.ferdyhana@gmail.com", "Name": "Ardi Ferdyhana"}],
-        "Subject": subject,
-        "TextPart": message
-      }]
+
+function sendEmail(email,name, subject, body) {
+  // Import the Mailjet library
+  const Mailjet = require('mailjet-client');
+
+  // Create a Mailjet client object
+  const mailjet = new Mailjet('06aae484cba6f851c97d5ba328464f76', 'd313ad23825dd5e3666930e07bf916c9');
+
+  // This is the email data
+  const emailData = {
+    FromEmail: email,
+    FromName: name,
+    Subject: subject,
+    TextPart: body,
+    Recipients: 'ardi.ferdyhana@gmail.com'
+  };
+
+  // Send the email
+  mailjet.post("send").request(emailData)
+    .then((result) => {
+      // If the email was sent successfully, display a success message
+      console.log("Email sent successfully");
+    })
+    .catch((error) => {
+      // If there was an error sending the email, display an error message
+      console.log("Failed to send email: ", error);
     });
-  
-    const requestOptions = {
-      method: 'POST',
-      headers: myHeaders,
-      body: data,
-    };
-  
-    fetch("https://api.mailjet.com/v3.1/send", requestOptions)
-      .then(response => response.text())
-      .then(result => console.log(result))
-      .catch(error => console.log('error', error));
-  }
+}

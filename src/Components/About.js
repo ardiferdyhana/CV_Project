@@ -84,6 +84,8 @@ const About = () => {
                     columnGap={20}
                     rowGap={3}
                     paddingTop='30px'
+                    gridAutoFlow={true}
+                    
                     >
                     <GridItem rowSpan={1} colSpan={1}>Linux/Ubuntu</GridItem>
                     <GridItem rowSpan={1} colSpan={1} textAlign='right'>90%</GridItem>
